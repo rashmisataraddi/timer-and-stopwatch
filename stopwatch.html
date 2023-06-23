@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer and Stopwatch</title>
+    <style>
+        #timer {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        #stopwatch {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1><centre>Timer and Stopwatch</centre></h1>
+    
+    <h2>Timer</h2>
+    <div id="timer">00:00:00</div>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+    
+    <h2>Stopwatch</h2>
+    <div id="stopwatch">00:00:00</div>
+    <button onclick="startStopwatch()">Start</button>
+    <button onclick="stopStopwatch()">Stop</button>
+    <button onclick="resetStopwatch()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
